@@ -22,24 +22,33 @@ int main() {
     float pibmenor1 = 350.50;
     float pibmenor2 = 699.28;
 
+    //Atribuição de valores para as variaveis
+    //Atribuicao de valores
+    populacao1 = 6748000;
+    populacao2 = 12325000;
+    area1 = 330.0;
+    area2 = 1521.11;
+    pontos1 = 100;
+    pontos2 = 200;
+
     // Exibição dos Dados das Cartas:
     // Carta 1
-    printf("Carta 1:%s/n", carta1);
+    printf("Carta 1: %s\n", carta1);
     printf("Codigo: %s\n", codigo1);
     printf("Estado: %c\n", estado);
     printf("Cidade: %s\n", cidade);
     printf("Populacao: %d\n", populacao1);
     printf("Area: %.2lf\n", area1);
-    printf("PIB: %.2lf\n", pibmenor1); 
+    printf("PIB: %.2lf bilhões\n", pibmenor1); 
     printf("Pontos: %d\n", pontos1);
     //Carta 2
-    printf("%s\n", carta2);
+    printf("Carta 2: %s\n", carta2);
     printf("Codigo: %s\n", codigo2);
     printf("Estado: %c\n", estado2);
     printf("Cidade: %s\n", cidade2);
     printf("Populacao: %d\n", populacao2);
     printf("Area: %.2lf\n", area2);
-    printf("PIB: %.2lf\n", pibmenor2);
+    printf("PIB: %.2lf bilhões\n", pibmenor2);
     printf("Pontos: %d\n", pontos2);
 
 
