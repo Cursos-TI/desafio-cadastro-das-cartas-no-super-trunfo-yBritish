@@ -39,7 +39,7 @@ int main(){
     
     switch (opcao)
     { case 1:
-        resultado = d1 > d2 ? (d2) : (d1);
+        resultado = d1 < d2 ? (d2) : (d1);
         carta1 = d1;
         carta2 = d2;
         atributo = "Densidade Demografica";
@@ -81,7 +81,7 @@ int main(){
         switch(opcao2){
             case 1:
 
-                resultado2 = d1 > d2 ? (d1) : (d2);
+                resultado2 = d1 < d2 ? (d1) : (d2);
                 atributo2 = "Densidade Demografica";
                 carta1 = d1;
                 carta2 = d2;
